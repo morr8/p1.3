@@ -1,15 +1,29 @@
-//
-//  main.cpp
-//  p1.3
-//
-//  Created by Sergio campos on 5/19/19.
-//  Copyright © 2019 Sergio campos. All rights reserved.
-//
+/*
+ ••• P1.3Write a program that prints your name in large letters, such as
+ 
+ *   *    **    ****    ****   *   *
+ *   *   *  *   *   *   *   *  *   *
+ *****  *    *  ****    ****    * *
+ *   *  ******  *   *   *   *    *
+ *   *  *    *  *    *  *    *   *
+ */
 
 #include <iostream>
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
-    return 0;
+using namespace std;
+
+int main()
+{
+    cout << "     ****       ******       *****     ****                                                   "<< endl;
+    cout << "     *          *           *****      *    *                                    "<< endl;
+    cout << "      *         *****                   *****                                         "<< endl;
+    cout << "       *        *           *   *            *                                 "<< endl;
+    cout << "      *****      ******     *   *            *                                         "<< endl;
+    cout << "                                        ******                                   "<< endl;
+    cout << "                                                                           "<< endl;
+    cout << "                                                                           "<< endl;
+    cout << "                                                                           "<< endl;
+    cout << "                                                                           "<< endl;
+    cout << "                                                                           "<< endl;
+
 }
